@@ -10,7 +10,7 @@ $ pkg install git
 
 
 
-$ git klon https://github.com/SyafiiXD/crak
+$ git clone https://github.com/SyafiiXD/crak
 
 
 
