@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Encoding utf-8
+# encoding utf-8
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
 # Auhtor : muhmmad Syafii
