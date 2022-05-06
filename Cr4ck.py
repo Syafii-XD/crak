@@ -3,7 +3,7 @@
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
 username = 'SyafiiXD'
-Created =  06-07-2022
+Created =  '06-07-2022'
 My facebook = ('https://www.facebook.com/fikritampan305')
 
 import os,sys,re,time,json,random,requests
