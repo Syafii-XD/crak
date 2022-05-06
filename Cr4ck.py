@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Recode Syafii-XD
+#Code by Syafii-XD
 #Created 05-07-2022
 #My facebook (https://www.facebook.com/fikritampan305)
 
