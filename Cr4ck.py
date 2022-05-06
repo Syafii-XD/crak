@@ -320,7 +320,7 @@ def moch_yayan():
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
                    print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
-                          for user in pass:
+                          for user in x:
                                   users = user.split('|')
                                   ss = users[0].split(' ')
                                   for x in ss:
