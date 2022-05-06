@@ -95,14 +95,14 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/fikritampam305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
+                  os.system("xdg-open https://youtube.com/channel/UCmIo6prErfz0OhEQ9fQq4JQ") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
