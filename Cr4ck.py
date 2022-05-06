@@ -1,7 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
+#Code by SyafiiXD 
+#Created 05-07-2020
 #My facebook (https://www.facebook.com/fikritampan305)
 
 import os,sys,re,time,json,random,requests
@@ -26,7 +28,7 @@ def kontol():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : SyafiiXD
 \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
@@ -39,7 +41,7 @@ def jembut():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : SyafiiXD
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
@@ -316,7 +318,7 @@ def moch_yayan():
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
-                   print('\n [\x1b[1;91m!\x1b[1;97m] Mainkan mode pesawat 5 detik jika tidak ada hasil\n')
+                   print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
@@ -346,10 +348,10 @@ def moch_yayan():
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
          yayanxd()
     elif yayan == "3" or yayan =="03":
-         os.system('xdg-open https://m.facebook.com/groups/curhatkitabyrezamaulan')
+         os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
          yayanxd()
     elif yayan == "4" or yayan =="04":
-         os.system('xdg-open https://m.facebook.com/groups/1873546942975736')
+         os.system('xdg-open https://www.facebook.com/groups/3877586212335618')
          yayanxd()
     elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
@@ -357,8 +359,8 @@ def moch_yayan():
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          yayanxd()
     elif yayan == "0" or yayan =="00":
-         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My Facebook\n\n")
-         os.system('xdg-open https://facebook.com/fikritampan305/frofile.php')
+         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
          exit()                   	
 
 if __name__=="__main__":
