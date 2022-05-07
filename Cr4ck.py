@@ -95,7 +95,7 @@ def fii_ganteng():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/100004623370585"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
@@ -298,7 +298,7 @@ def fii_ganteng():
                                  print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Done....")
                                  print("\x1b[1;97m[\x1b[1;94m✓\x1b[1;97m] Saved To \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                          except FileNotFoundError:
-                                 exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
+                                exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
                          print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
                          syafiixd()
