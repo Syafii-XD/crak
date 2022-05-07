@@ -4,7 +4,7 @@
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
 #Code by SyafiiXD 
 #Created 05-07-2020
-#My facebook (https://www.facebook.com/fikritampan305)
+#My facebook (https://www.facebook.com/100080716718035)
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -30,7 +30,7 @@ def ganteng():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/100080716718035
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def tampan():
@@ -43,7 +43,7 @@ def tampan():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/100080716718035
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def syafiixd():
@@ -95,7 +95,7 @@ def fii_ganteng():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/100004623370585"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/100080716718035"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
@@ -368,5 +368,6 @@ if __name__=="__main__":
      croot()
      clear()
      ganteng()
+     masuk()
      fii_ganteng()
      syafiixd()
