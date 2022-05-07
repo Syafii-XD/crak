@@ -367,6 +367,6 @@ if __name__=="__main__":
      bot_auhor()
      croot()
      bot_auhor()
-     kontol()
+     banner2()
      fii_ganteng()
-     yayanxd()
+     syafiixd()
