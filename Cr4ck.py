@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Code by YayanXD 
-#Created 05-07-2020
-#My facebook (https://www.facebook.com/KM39453)
+#Code by SyafiiXD
+#Created 27-12-98
+#My facebook https://www.facebook.com/fikritampan305
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
@@ -28,9 +28,9 @@ def kontol():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -41,9 +41,9 @@ def jembut():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : YayanXD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Yayan-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -80,8 +80,8 @@ def moch_yayan():
              except FileNotFoundError:
                    ikeh_ikeh_kimochi()
                    kontol()
-                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
+                   cek = input("\n\033[0;92m       [ \033[0;97mJangan Gunakan Akun Pribadi!!\033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Masukkan Cookies \033[1;91m: \033[1;96m")
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
