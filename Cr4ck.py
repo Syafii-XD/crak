@@ -12,14 +12,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 def croot():
     os.system("git pull")
-def bot_auhor():
+def clear():
     os.system("clear")
 def aahh(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def banner():
+def ganteng():
     time.sleep(0.3)
     aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
@@ -33,7 +33,7 @@ def banner():
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def banner2():
+def tampan():
     print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
      ██║     ██████╔╝███████║██║     █████╔╝ 
@@ -78,8 +78,8 @@ def fii_ganteng():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
-                   bot_auhor()
-                   benner()
+                   clear()
+                   ganteng()
                    cek = input("\n\033[0;92m       [ \033[0;97mJangan gunakan akun pribadi \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Masukkan Cookie \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading...')
              cek = {"cookie":cek}
@@ -208,8 +208,8 @@ def fii_ganteng():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-                   bot_auhor()
-                   banner2()
+                   clear()
+                   ganteng()
                    aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
                    aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
                    aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
@@ -303,8 +303,8 @@ def fii_ganteng():
                          print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
                          syafiixd()
                    print()
-                   bot_auhor()
-                   jembut()
+                   clear()
+                   tampan()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••☺••─────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••🥰••─────═╩═╝疊\n",end="")       
@@ -312,8 +312,8 @@ def fii_ganteng():
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
                    aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
-                   bot_auhor()
-                   jembut()
+                   clear()
+                   tampan()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;97m     疊╔═╦═────••😁••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••😘••─────═╩═╝疊\n",end="")
@@ -364,9 +364,9 @@ def fii_ganteng():
          exit()                   	
 
 if __name__=="__main__":
-     bot_auhor()
+     clear()
      croot()
-     bot_auhor()
-     banner2()
+     clear()
+     ganteng()
      fii_ganteng()
      syafiixd()
