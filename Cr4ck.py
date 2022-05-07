@@ -368,6 +368,5 @@ if __name__=="__main__":
      croot()
      clear()
      ganteng()
-     masuk()
      fii_ganteng()
      syafiixd()
