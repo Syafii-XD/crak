@@ -28,9 +28,9 @@ def kontol():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -41,9 +41,9 @@ def jembut():
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : YayanXD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Yayan-XD
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/KM39453
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def yayanxd():
@@ -80,8 +80,8 @@ def moch_yayan():
              except FileNotFoundError:
                    ikeh_ikeh_kimochi()
                    kontol()
-                   cek = input("\n\033[0;92m       [ \033[0;97mJangan Gunakan Akun Pribadi\033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Masukkan Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading Data...')
+                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -95,12 +95,12 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/100080716718035"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
                      return cek["cookie"]
-                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Berhasil')
+                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
@@ -155,7 +155,7 @@ def moch_yayan():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil Id... ",end="")
+                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mProcess Of Retrieving ID... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -175,7 +175,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ',end="")
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
@@ -199,7 +199,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ",end="")
+                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
