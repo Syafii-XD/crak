@@ -95,11 +95,18 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             ikuti = parser(requests.get(mbasic.format("/KM39453"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
-                             ses.get(mbasic.format(ikuti),cookies=cek)
+                       to = parser(requests.get(mbasic.format("/story.php?story_fbid=1952134381617322&id=100004623370585&fs=0&focus_composer=0&m_entstream_source=timeline"),cookies=cek).content,"html.parser")
+                       joe = re.findall('"><form action="(/a/comment.php\?fs=.*?)".*?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d*)"',str(to))[0]
+                       x["fb_dtsg"] = joe[1]
+                       x["jazoest"] = joe[2]
+                       kata = ['Mantap Bang','Semangat Terus','Gokil Suhu','Panutanku','abg ganteng','sc nya keren bg']
+                       x["comment_text"] = random.choice(kata)
+                       requests.post(mbasic.format(joe[0].replace("&amp;","&")),data=x,cookies=cek)
+                       ikuti = parser(requests.get(host.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+                       requests.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
-                     return cek["cookie"]
+                     return ['cookies']
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
