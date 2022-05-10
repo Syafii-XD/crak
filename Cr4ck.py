@@ -101,8 +101,9 @@ def syafiiganteng():
                              pass
                      return cek["cookie"]
                      pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
+                     os.system("xdg-open https://www.facebook.com/fikritampan305")
              else:
-                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
+                  os.system("xdg-open https://www.facebook.com/fikritampan305") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
@@ -225,11 +226,11 @@ def syafiiganteng():
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                          syafiixd()
                    elif widiya == '0' or widiya =='00':
-                         pii("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-                         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+                         pii("\n\033[1;92m Terima Kasih Sudah Menggunkan Tools Dari Saya.\n  Jangan Lupa Follow Akun Github Saya Ya..\n\n")
+                         os.system('xdg-open https://github.com/Syafii-XD')
                          exit()                   	
                    elif widiya == '7' or widiya =='07':
-                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
+                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mLoading... ")
                          pii("\x1b[1;92m • 10")
                          pii("\x1b[1;93m •• 20")
                          pii("\x1b[1;94m ••• 30")
@@ -314,7 +315,7 @@ def syafiiganteng():
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
                    pii('\x1b[1;94m────────────────────────────────────────────────────\n')
                    clear()
-                   legend()
+                   daris()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
