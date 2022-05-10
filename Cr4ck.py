@@ -107,8 +107,6 @@ def moch_yayan():
                      except :
                              pass
                      return cek["cookies"]
-                 else
-                     return cek["cookies"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
