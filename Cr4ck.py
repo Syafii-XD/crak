@@ -80,6 +80,7 @@ def moch_yayan():
              except FileNotFoundError:
                    ikeh_ikeh_kimochi()
                    kontol()
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mJangan Gunakan Aku Pribadi!!)
                    cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading.......')
              cek = {"cookie":cek}
