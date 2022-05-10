@@ -110,6 +110,7 @@ def moch_yayan():
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
+                     'user_agenr', 'Mozilla/5.0 (Linux; Android 11; V2111) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36'
                      'access_token': b,
                      'format': 'JSON',
                      'sdk_version': '2',
@@ -117,7 +118,7 @@ def moch_yayan():
                      'locale': 'en_US',
                      'password': password,
                      'sdk': 'ios',
-                     'generate_session_cookies': '2',
+                     'generate_session_cookies': '1',
                      'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
              api = 'https://b-api.facebook.com/method/auth.login'
