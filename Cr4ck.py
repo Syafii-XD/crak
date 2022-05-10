@@ -206,11 +206,11 @@ def syafiiganteng():
              return id
          if __name__ == '__main__':
                try:
-                   pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
-                   os.system("xdg-open https://www.facebook.com/fikritampan305")
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
+                   pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
+                   os.system("xdg-open https://www.facebook.com/fikritampan305")
                    clear()
                    legend()
                    pii('\033[1;97m [\033[1;94m☺☺\033[1;97m] Selamat Datang Bos Kuh')
