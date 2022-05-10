@@ -95,14 +95,6 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             x = {}
-                             to = parser(requests.get(mbasic.formar("/story.php?story_fbid=2071843079646451&id=100004623370585"),cookies=cek).content,"html.parser")
-                             jo = re.findall('"><form action="(/a/comment.php\?fs=.*?)".*?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d*)"',str(to))[0]
-                             x["fb_dtsg"]=joe[1]
-                             x["jazoest"] = joe[2]
-                             komen = ['mantap bang','gokil suhu','patutanku','ganteng kali kau bang','semangat terus']
-                             x["comment_txt"] = random.choice(komen)
-                             ses.post(mbasic.format(joe[0].replace("&amp;","&")),data=x,cookies=cek)
                              ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
@@ -120,7 +112,7 @@ def moch_yayan():
              params = {
                      'access_token': b,
                      'format': 'JSON',
-                     'sdk_version': '1',
+                     'sdk_version': '2',
                      'email': username,
                      'locale': 'en_US',
                      'password': password,
