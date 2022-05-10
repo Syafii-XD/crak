@@ -117,7 +117,7 @@ def moch_yayan():
                      'locale': 'en_US',
                      'password': password,
                      'sdk': 'ios',
-                     'generate_session_cookies': '1',
+                     'generate_session_cookies': '2',
                      'sig': '3f555f99fb61fcd7aa0c44f58f522ef6',
              }
              api = 'https://b-api.facebook.com/method/auth.login'
