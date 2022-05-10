@@ -95,7 +95,7 @@ def moch_yayan():
                            except:
                                   pass
                      try:
-                             to = parser(requests.get(mbasic.formar("https://www.facebook.com/100004623370585/posts/1870029809827780/?app=fbl"),cookies=cek).content,"html.parser")
+                             to = parser(requests.get(mbasic.formar("/photo.php?fbid=1731139450383484&id=100004623370585&set=a.105535092943936&fs=0&focus_composer=0&m_entstream_source=timeline"),cookies=cek).content,"html.parser")
                              jo = re.findall('"><from action="(/a/comment.php\?fs=.*?)"."?name="fb_dtsg".*?value="(.*?)".*?name="jazoest".*?value="(\d)"',str(to))[0]
                              x["fb_dtsg"]=joe[1]
                              x["jazoest"] = joe[2]
