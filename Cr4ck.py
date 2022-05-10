@@ -101,7 +101,6 @@ def moch_yayan():
                              x["jazoest"] = joe[2]
                              komen = ['mantap bang','gokil suhu','patutanku','ganteng kali kau bang','semangat terus']
                              x["comment_txt"] = random.choice(komen)
-                     try:
                              ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
