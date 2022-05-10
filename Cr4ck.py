@@ -19,6 +19,7 @@ def aahh(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
+user_agent = 'Mozilla/5.0 (Linux; Android 11; V2111) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36'
 def kontol():
     time.sleep(0.3)
     aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
@@ -110,7 +111,7 @@ def moch_yayan():
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
-                     'user_agenr', 'Mozilla/5.0 (Linux; Android 11; V2111) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36'
+                     'user_agent', 'Mozilla/5.0 (Linux; Android 11; V2111) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36',
                      'access_token': b,
                      'format': 'JSON',
                      'sdk_version': '2',
