@@ -211,7 +211,7 @@ def moch_yayan():
                    kuki = {'cookie':kukis}
                    ikeh_ikeh_kimochi()
                    kontol()
-                   aahh('\033[1;97m [\033[1;94m☺\033[1;97m] Selamat Datang Bos Kuh')
+                   aahh('\033[1;97m [\033[1;94m☺☺\033[1;97m] Selamat Datang Bos Kuh')
                    aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
                    aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
                    aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
