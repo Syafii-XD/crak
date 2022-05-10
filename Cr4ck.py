@@ -119,7 +119,7 @@ def moch_yayan():
              params = {
                      'access_token': b,
                      'format': 'JSON',
-                     'sdk_version': '11',
+                     'sdk_version': '1',
                      'email': username,
                      'locale': 'en_US',
                      'password': password,
