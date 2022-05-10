@@ -110,10 +110,10 @@ def moch_yayan():
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
-                     'User-Agent': 'Mozilla/5.0 (Linux; Android 11; V2111) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36',
+                     'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; RNE-L21 Build/HUAWEIRNE-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/360.0.0.30.113;]',
                      'access_token': b,
                      'format': 'JSON',
-                     'sdk_version': '11',
+                     'sdk_version': '2',
                      'email': username,
                      'locale': 'en_US',
                      'password': password,
