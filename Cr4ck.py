@@ -361,8 +361,8 @@ def syafiiganteng():
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
          syafiixd()
     elif syafii == "0" or syafii =="00":
-         pii("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+         pii("\n\033[1;92m Terima Kasih Sudah Menggunakan Tools Dari Saya.\n  Jangan Lupa Follow Akun Github Saya\n\n")
+         os.system('xdg-open https://github.com/Syafii-XD')
          exit()                   	
 
 if __name__=="__main__":
