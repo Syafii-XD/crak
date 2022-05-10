@@ -97,11 +97,9 @@ def syafiiganteng():
                      try:
                              ikuti = parser(requests.get(mbasic.format("/fikritampan305"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
                              ses.get(mbasic.format(ikuti),cookies=cek)
-                             pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
-                             os.system("xdg-open https://www.facebook.com/fikritampan305")
                      except :
                              pass
-                     return cek["cookie"]
+                     return cek["cookie"];
                      pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
                      os.system("xdg-open https://www.facebook.com/fikritampan305")
              else:
@@ -208,6 +206,8 @@ def syafiiganteng():
              return id
          if __name__ == '__main__':
                try:
+                     pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
+                   os.system("xdg-open https://www.facebook.com/fikritampan305")
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
