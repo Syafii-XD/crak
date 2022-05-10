@@ -30,7 +30,7 @@ def kontol():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/Fikritampan305
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
 def jembut():
@@ -81,7 +81,7 @@ def moch_yayan():
                    ikeh_ikeh_kimochi()
                    kontol()
                    cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading.......')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
