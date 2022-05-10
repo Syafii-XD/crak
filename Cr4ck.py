@@ -106,9 +106,9 @@ def moch_yayan():
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
-                     return True
+                     return cek["cookies"]
                  else
-                     return False
+                     return cek["cookies"]
                      aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
                   os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
