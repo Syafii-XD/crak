@@ -111,6 +111,7 @@ def syafiiganteng():
              global die,check,result,count
              b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
              params = {
+                     'User-Agent': 'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'
                      'access_token': b,
                      'format': 'JSON',
                      'sdk_version': '2',
