@@ -65,7 +65,7 @@ def syafiiganteng():
 
     syafii=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
     if syafii == "1" or syafii =="01":
-         mbasic = 'https://m.facebook.com{}'
+         mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
          die = 0
