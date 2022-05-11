@@ -253,10 +253,10 @@ def syafiiganteng():
                          username = input("\033[1;97m\n [\033[1;96m?\033[1;97m] Link Post \033[1;91m: \033[1;92m")
                          if username == "":
                                  exit("\033[00m[\033[91m!\033[00m] Cannot be empty!")
-                         elif 'www.facebook' in username:
-                                 username = username.replace('www.facebook','mbasic.facebook')
-                         elif 'www.facebook' in username:
-                                 username = username.replace('m.facebook','mbasic.facebook.com')
+                         elif 'www.facebook.com' in username:
+                                 username = username.replace('www.facebook.com','mbasic.facebook.com')
+                         elif 'www.facebook.com' in username:
+                                 username = username.replace('m.facebook.com','mbasic.facebook.com')
                          username = fromlikes(username)
                    elif widiya == '3' or widiya =='03':
                          knf = input("\033[1;97m\n [\033[1;96m?\033[1;97m] The Name You Want To Search For \033[1;91m: \033[1;92m")
