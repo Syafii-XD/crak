@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 #Males gw encrypt Tod jika mau recode, recode aja
 #Tapi ngotak dikit jangan Lo jual belikan sc ini kontol
